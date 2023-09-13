@@ -7,7 +7,7 @@ sentence = a.split()
 result = "-".join(sentence)
 print(result)
 
-# Version 2.0
+# Version 2.1
 a = input("Введите предложение!: ")
 print(a.replace(" ", "-"))
 
