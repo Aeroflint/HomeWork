@@ -7,4 +7,4 @@ b = float(input("Введите второе число!: "))
 c = float(input("Введите третье число!: "))
 
 result = (a+b+c / 3)
-print(round(result, 3))
+print(round(result, 3)
