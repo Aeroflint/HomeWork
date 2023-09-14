@@ -11,7 +11,6 @@ sentence = a.split()
 result = "-".join(sentence)
 print(result)
 
-
 # Version 2.0
 
 a = input("Введите предложение!: ")
