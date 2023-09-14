@@ -3,9 +3,9 @@
 # TODO
 # Пользователь вводит 3 числа, найти среднее арифмитическое с точность 3
 
-a = float(input("Введите первое число!: "))
-b = float(input("Введите второе число!: "))
-c = float(input("Введите третье число!: "))
+first_number = float(input("Введите первое число!: "))
+second_number = float(input("Введите второе число!: "))
+third_number = float(input("Введите третье число!: "))
 
 result = (a+b+c / 3)
 print(round(result, 3))
