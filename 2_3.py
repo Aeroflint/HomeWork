@@ -21,3 +21,4 @@ city = str(input("Введите ваш текущий город!: "))
 
 print("Меня зовут {}. Мне {}. Теперь я в городе {}".format(name, age, city))
 
+# Version 3.0
