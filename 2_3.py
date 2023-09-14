@@ -22,3 +22,9 @@ city = str(input("Введите ваш текущий город!: "))
 print("Меня зовут {}. Мне {}. Теперь я в городе {}".format(name, age, city))
 
 # Version 3.0
+
+name = str(input("Введите имя!: "))
+age = int(input("Введите ваш возраст!: "))
+city = str(input("Введите ваш текущий город!: "))
+
+print()
