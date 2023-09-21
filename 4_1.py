@@ -6,3 +6,4 @@
 n = int(input("Введите степень числа 2: "))
 new_numbers = [2 ** n for n in range(1, n)]
 print(new_numbers)
+
