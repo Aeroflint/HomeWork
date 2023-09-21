@@ -1,8 +1,18 @@
 
 
-# TODO Заполнить список степенями числа 2 (от 2^1 до 2^n).
+# TODO
+# Пользователь вводит предложение, заменить все пробелы на "-" 2-мя способами
+
+# version 1.0
+
+begin_sentence = input("Введите предложение!: ")
+sentence = begin_sentence.split()
+result = "-".join(sentence)
+print(result)
+
+# Version 2.0
+
+begin_sentence = input("Введите предложение!: ")
+print(begin_sentence.replace(" ", "-"))
 
 
-n = int(input("Введите степень числа 2: "))
-new_numbers = [2 ** n for n in range(1, n)]
-print(new_numbers)

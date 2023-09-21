@@ -1,8 +1,12 @@
 
 
-# TODO Без использования collections, написать программу, которая будет создавать словарь
-#  для подсчитывания количества вхождений каждой буквы в текст введенный с клавиатуры
+# TODO
+# Пользователь вводит 3 числа, найти среднее арифмитическое с точностью 3
 
+first_number = float(input("Введите первое число!: "))
+second_number = float(input("Введите второе число!: "))
+third_number = float(input("Введите третье число!: "))
 
-text = input("Введите текст!: ")
-counter = list(text)
+list_number = [first_number, second_number, third_number]
+result = sum(list_number) / len(list_number)
+print(round(result, 3))
