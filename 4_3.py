@@ -17,8 +17,8 @@ data = {n: {
     'name': name,
     'email': email
 }}
-for i in range(0, n):
-print(data)
+for n in range(0, n):
+    print(data)
 
 
 
