@@ -13,7 +13,6 @@ email = input("введите email: ")
 # n = int(input("Введите число: "))
 n = int(input("Введите число!: "))
 # a = for i in range(0, n)
-a = (i for i in range (0, n))
 data = {n: {
     'name': name,
     'email': email
