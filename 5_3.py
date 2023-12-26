@@ -4,9 +4,25 @@
 
 
 N = int(input("Введите число!: "))
-for i in range(2, N):
-     if i % 2 == 0:
-         print(i, end = " " )
+# c = 0
+# for i in range(2, N+1, 2):
+#     print(i, end=" ")
+#     c += 1
+#     if c == 5:
+#         c = 0
+        print()
+
+numbers = list(range(2, n + 1, 10))
+for i in range(0, len(numbers),5):
+    for j in range(i, i+9, 2):
+        if j <= n:
+        print(j, end=" ")
+    else:
+        break
+    print()
+
+
+
 
 # n = int(input())
 # a = []
